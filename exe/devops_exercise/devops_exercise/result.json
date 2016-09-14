@@ -1,0 +1,16 @@
+"request_count":
+{
+	"shortroute": <shortroute requests count>,
+	"longroute": <longroute requests count>,
+	"verylongroute": <verylongroute requests count>,
+	"other": <other requests count>
+},
+
+"shortroute_statistics":
+{
+	"average_response_time": <average response time>,
+	"standard_deviation_response_time": <standard deviation response time>,
+	"98th_percentile_response_time": <98th percentile response time>,
+},
+
+"max_route_length": <max route length>

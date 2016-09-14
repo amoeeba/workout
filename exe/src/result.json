@@ -1,0 +1,14 @@
+{
+    "shortroute_statistics":{
+        "98th_percentile_response_time":"381.7842",
+        "standard_deviation_response_time":"103.81333008264812",
+        "average_response_time":"73.47286118737131"
+    },
+    "max_route_length":"6167",
+    "request_count":{
+        "shortroute":"11656",
+        "verylongroute":"179",
+        "longroute":"1572",
+        "other":"372"
+    }
+}

@@ -1,0 +1,55 @@
+﻿# EXERCISE README #
+
+
+
+The exercise consists in parsing a bunch of log entries and calculate some simple statistics based on those entries.
+
+
+The candidate may use any preferred programming/scripting language (and third party libraries).
+
+
+The solution must have tests. 
+
+Inside the folder there is a text file containing the log entries: 
+devops_logs.txt
+ The entries have the following format:
+
+
+timestamp "http_method http_request http_version" http_status response_time response_size route_length
+
+* 'timestamp' is Unix timestamp
+* 'response_time' is measured in microseconds
+* 'response_size' is measured in bytes
+* 'route_length' is measured in meters
+
+If one value is missing it is reported as '-'.
+
+
+
+The requests are categorized in 4 different categories:
+
+* shortroute (for routes < 100 km)
+* longroute (for routes >=100 km and <1000 km)
+* verylongroute (for routes >=1000 km)
+* other (all the other routes).
+
+
+
+Please create a folder called 'src'. 
+Inside this folder put your source code and tests. 
+
+Add a file called INSTRUCTIONS if special instructions are needed to run/test your code.
+
+
+
+Please write a code which should calculate the following statistics:
+
+
+1) The number of request for each route category (shortroute, longroute, verylongroute, other).
+
+2) The average response time, the standard deviation and the 98th percentile of the response time for the    shortroute requests category. All values should be in milliseconds.
+
+3) The max route length present in the dataset.
+
+The output of your code must be a json file called ‘result.json’    with the results.
+For the file format please refer to the 'result.json' file present in this folder

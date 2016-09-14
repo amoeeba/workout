@@ -1,0 +1,30 @@
+ ˛∫æ   3 ∫  anagram/AnagramDemo  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lanagram/AnagramDemo; printAnagrams (Ljava/lang/String;)V  java/util/HashMap
+  	  java/lang/String
+    java/nio/file/Paths   get ;(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;	    !java/nio/charset/StandardCharsets    UTF_8 Ljava/nio/charset/Charset;
+ " $ # java/nio/file/Files % & newBufferedReader H(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;
+ ( * ) java/io/BufferedReader + , readLine ()Ljava/lang/String;
+  . / 0 sortEachWord &(Ljava/lang/String;)Ljava/lang/String; 2 4 3 java/util/Map  5 &(Ljava/lang/Object;)Ljava/lang/Object; 7 java/util/Set 9 java/util/TreeSet
+ 8 	 2 < = > put 8(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 6 @ A B add (Ljava/lang/Object;)Z
+ ( D E  close
+ G I H java/lang/Throwable J K addSuppressed (Ljava/lang/Throwable;)V	 M O N java/lang/System P Q out Ljava/io/PrintStream; S Invalid File or Filename
+ U W V java/io/PrintStream X  println Z $Error Occured while reading the file 2 \ ] ^ values ()Ljava/util/Collection; ` b a java/util/Collection c d iterator ()Ljava/util/Iterator; f h g java/util/Iterator i j next ()Ljava/lang/Object; 6 l m n size ()I
+ U p X q (Ljava/lang/Object;)V f s t u hasNext ()Z w java/io/IOException y java/lang/Exception filename Ljava/lang/String; 
+anagramMap Ljava/util/Map; path Ljava/nio/file/Path; in Ljava/io/BufferedReader; word key words Ljava/util/Set; e Ljava/io/IOException; Ljava/lang/Exception; anagrams LocalVariableTypeTable FLjava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;>; #Ljava/util/Set<Ljava/lang/String;>; StackMapTable è java/nio/file/Path
+  ë í ì toCharArray ()[C
+ ï ó ñ java/util/Arrays ò ô sort ([C)V
+  õ  ô letters [C main ([Ljava/lang/String;)V
+  	 ¢ 8************************Program Started***************** § java/util/Scanner	 M ¶ Ä ß Ljava/io/InputStream;
+ £ ©  ™ (Ljava/io/InputStream;)V ¨ )Kindly Enter the path of the file to read
+ £ Æ Ø , nextLine
+ £ D
+  ≤   args [Ljava/lang/String; anagramDemo input Ljava/util/Scanner; 
+SourceFile AnagramDemo.java !               /     *∑ ±    
+                          õ  
+   ıª Y∑ M+Ω ∏ N::-≤ ∏ !:∂ ':« ß =∏ -:,π 1 ¿ 6:		« ª 8Y∑ ::	,	π ; W	π ? Wßˇ∫∆ P∂ Cß H:∆ ∂ Cø:« 
+:ß • 
+∂ Fø:≤ LR∂ Tß :≤ LY∂ T,π [ π _ :ß "π e ¿ 6:π k § ≤ L∂ oπ r öˇ⁄±    i v    Ö Ö    § § v  § ± x  
+   b              '  ,  /  6  C   H ! Q " \ $ f  i & § ' ¶ ) ± + ≥ - ª 0 ◊ 1 ‚ 2 Í 0 Ù 5    p    ı       ı z {   Ì | }   ‰ ~     b Ä Å  ' ? Ç {  6 0 É {  C # Ñ Ö 	 ¶  Ü á  ≥  Ü à  ◊  â Ö  ä       Ì | ã  C # Ñ å 	 ◊  â å  ç   p ˇ      2 é G G (  ¸  ˝ ,  6¯ L G˙ B Gˇ     2 é  vL x	ˇ     2 é  f    / 0     N     *∂ êL+∏ îª Y+∑ ö∞    
+       9  : 	 ;         Ç {     ú ù  	 û ü     ñ     2ª Y∑ †L≤ L°∂ Tª £Y≤ •∑ ®M≤ L´∂ T,∂ ≠N,∂ ∞+-∑ ±±    
+   "    @  A  B  C # D ( E , F 1 G    *    2 ≥ ¥    * µ     ∂ ∑  ( 
+ z {   ∏    π
