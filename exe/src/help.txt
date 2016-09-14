@@ -1,2 +1,5 @@
+1. Install numpuy
 C:\Users\prakash\Downloads\numpy-1.11.1\numpy-1.11.1>pip3 install numpy
+
+2. run devops.py ( if you have different log path then notify here)
 C:\Users\prakash\Downloads\src\src>python devops.py -f devops_logs.txt
