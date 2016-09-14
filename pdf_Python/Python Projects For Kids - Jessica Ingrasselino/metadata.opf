@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">620</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">7e8763db-a95d-488a-9050-74415c3eb0de</dc:identifier>
+        <dc:title>Python Projects for Kids</dc:title>
+        <dc:creator opf:file-as="Ingrasselino, Jessica" opf:role="aut">Jessica Ingrasselino</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.54.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;b&gt;Key Features&lt;/b&gt;&lt;br&gt;
+Learn to start using Python for some simple programming tasks such as doing easy mathematical calculations.&lt;br&gt;
+Use logic and control loops to build a nice interesting game.&lt;br&gt;
+Get to grips with working with data and, once you're comfortable with 
+that, you'll be introduced to Pygame, which will help you wrap up the 
+book with a cool game.&lt;br&gt;
+Book Description&lt;br&gt;
+Kids are always the most fast-paced and enthusiastic learners, and are 
+naturally willing to build stuff that looks like magic at the end (when 
+it works!). Programming can be one such magic. Being able to write a 
+program that works helps them feel they've really achieved something. 
+Kids today are very tech-savvy and cannot wait to enter the fast-paced 
+digital world.&lt;br&gt;&lt;br&gt;
+Because Python is one of the most popular languages and has a syntax 
+that is quite simple to understand, even kids are eager to use it as a 
+stepping stone to learning programming languages.&lt;br&gt;&lt;br&gt;
+This book will cover projects that are simple and fun, and teach kids how to write Python code that works.&lt;br&gt;&lt;br&gt;
+The book will teach the basics of Python programming, installation, and 
+so on and then will move on to projects. A total of three projects, with
+ each and every step explained carefully, without any assumption of 
+previous experience.&lt;br&gt;&lt;br&gt;&lt;b&gt;What you will learn&lt;/b&gt;&lt;br&gt;
+Start fiddling with Python's variables, build functions and interact with users&lt;br&gt;
+Build your own calculator using the Math Library&lt;br&gt;
+Train Python to make logical decisions&lt;br&gt;
+Work with moving 2D objects on-screen&lt;br&gt;
+Understand the Pygame Library and build your very own game!&lt;br&gt;
+Write a cool program to manage inventories in your backpack&lt;br&gt;&lt;br&gt;&lt;b&gt;About the Author&lt;/b&gt;&lt;br&gt;
+Jessica Ingrassellino is a multi-talented educator, business leader, and
+ technologist. She received her EdD from Teachers College, Columbia 
+University for music education with an emphasis on assessment.&lt;br&gt;&lt;br&gt;
+Jessica is currently employed as the lead software engineer in testing 
+at Bitly, New York City. She transitioned from a teaching career of 10 
+years to a technology career through a balance of freelance work and 
+social media exposure. Jessica's current work focuses on using Python to
+ develop automated testing tools. She is an ASTQB certified quality 
+assurance engineer with experience in testing web, mobile, and backend 
+applications.&lt;br&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Packt Publishing</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Jessica Ingrasselino&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-04-24T00:41:32.756000+00:00" name="calibre:timestamp"/>
+        <meta content="Python Projects for Kids" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
